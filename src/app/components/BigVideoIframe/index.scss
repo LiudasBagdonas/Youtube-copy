@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.bigvideo-frame-box {
+	margin: 30px 0;
+	padding: 0 20px;
+}
+.selected-iframe {
+	width: 100%;
+	min-height: 300px;
+}
+.big-video-title {
+	font-size: 18px;
+	color: #999;
+	margin-bottom: 15px;
+}
+@media only screen and (min-width: 569px) {
+	.bigvideo-frame-box {
+		margin: 30px 0;
+		padding: 0 20px;
+		width: 100%;
+	}
+	.selected-iframe {
+		width: 100%;
+		min-height: 500px;
+	}
+}
